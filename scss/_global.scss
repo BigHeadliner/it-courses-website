@@ -1,0 +1,39 @@
+  
+ 
+//   html {  
+//     scroll-behavior: smooth;  
+//  }
+      
+
+  body {
+     min-height:100vh; 
+     font-style: normal;
+     font-size: 20px;
+     line-height: 29px;
+     @extend %inter-500;
+ } 
+
+ 
+  .container{ 
+      max-width: 1430px; 
+      margin: 0 auto; 
+      padding: 0 15px;  
+      border: 1px solid green; 
+      border: 1px solid transparent;
+  }  
+   
+  .majority-btn{ 
+    @extend  %inter-600; 
+    font-size: 17px; 
+    line-height: 27px; 
+    color:#FFF; 
+    border-radius: 6px; 
+    background: #4744C9; 
+    padding: 14px 32px;  
+    transition: all .3s linear;  
+    &:hover{ 
+      transform: scale(1.05);
+    }
+  }
+ 
+

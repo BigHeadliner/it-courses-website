@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Courses</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+
+        <a class="header__logo" href="#">
+          <p class="header__logo-text">IT Courses</p>
+        </a>
+
+        <nav class="menu">
+
+          <button class="menu__btn" id="menu__btn">
+            <span class="row-top"></span>
+            <span class="row-middle"></span>
+            <span class="row-bottom"></span>
+          </button>
+
+          <ul class="menu__list" id="menu__list">
+
+            <li class="menu__item menu__item--education">
+              <div class="menu__link-arrow-wrapper">
+                <p class="menu__link-title">Full-time education</p>
+                <img class="menu__link-arrow" src="images/header/arrow-down.svg" alt="arrow">
+              </div>
+              <div class="menu__submenu-box">
+                <div class="menu__submenu-box-inner">
+                  <ul class="menu__submenu">
+                    <p class="menu__submenu-title">PROFESSIONS</p>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">
+                        Software development
+                      </a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Networks and cybersecurity</a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Computer graphics and design</a>
+                    </li>
+                  </ul>
+
+                  <ul class="menu__submenu">
+                    <p class="menu__submenu-title">COURSES</p>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Internet marketing</a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Individual training</a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Python development</a>
+                    </li>
+                  </ul>
+
+                  <ul class="menu__submenu">
+                    <p class="menu__submenu-title">EDUCATION FOR CHILDREN</p>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Modern Computer Academy</a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">College</a>
+                    </li>
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">IT Start</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="#">Online learning</a>
+            </li>
+
+            <li class="menu__item menu__item--projects-about-us">
+              <div class="menu__link-arrow-wrapper">
+                <p class="menu__link-title">Our projects</p>
+                <img class="menu__link-arrow" src="images/header/arrow-down.svg" alt="arrow">
+              </div>
+
+              <div class="menu__submenu-box menu__submenu-box--projects">
+                <div class="menu__submenu-box-inner">
+                  <ul class="menu__submenu">
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Project-1</a>
+                    </li>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Project-2</a>
+                    </li>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Project-3</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="#">Events</a>
+            </li>
+
+            <li class="menu__item menu__item--projects-about-us">
+              <div class="menu__link-arrow-wrapper">
+                <p class="menu__link-title">About the Academy</p>
+                <img class="menu__link-arrow" src="images/header/arrow-down.svg" alt="arrow">
+              </div>
+
+              <div class="menu__submenu-box menu__submenu-box--about-us">
+
+                <div class="menu__submenu-box-inner">
+                  <ul class="menu__submenu">
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">About the Academy</a>
+                    </li>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Student stories</a>
+                    </li>
+
+                    <li class="menu__item menu__item-submenu">
+                      <a class="menu__link menu__link--submenu" href="#">Reviews</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="#">Contacts</a>
+            </li>
+
+
+          </ul>
+
+          <div class="menu__badge">
+            <p class="menu__badge-text">Live</p>
+            <img class="menu__badge-img" src="images/header/radio.svg" alt="">
+          </div>
+        </nav>
+
+        <div class="header__phone">
+          <div class="header__phone-title-wrapper">
+            <p class="header__phone-title">+38 (045) 537 23 70</p>
+            <img class="header__phone-arrow" src="images/header/arrow-down.svg" alt="arrow">
+          </div>
+          <div class="header__phone-box">
+            <ul class="header__phone-phones">
+              <li class="header__phone-item">
+                <a class="header__phone-number" href="tel:380445372260">+38 (045) 537 23 71</a>
+              </li>
+
+              <li class="header__phone-item">
+                <a class="header__phone-number" href="tel:380445372261">+38 (045) 537 23 72</a>
+              </li>
+
+              <li class="header__phone-item">
+                <a class="header__phone-number" href="tel:380445372263">+38 (045) 537 23 73</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__main">
+        <div class="header__main-content">
+          <h1 class="header__title">
+            Computer
+            graphics and design
+          </h1>
+
+          <p class="header__subtitle">        
+            Learn how to make money from your work
+          </p>
+
+          <a class="header__btn" href="#">
+            Sign up for a course
+          </a>
+        </div>
+
+
+
+        <div class="header__img-wrapper">
+          <div class="header__img-inner" id="scene">
+            <div class="header__img-item" data-depth="0.1" data-hover-only>
+              <div class="header__men-laptop">
+                <img class="header__men-laptop-img" src="images/header/men-with-laptop.png" alt="men">
+              </div>
+            </div>
+            <div class="header__img-item" data-depth="0.4" data-hover-only>
+              <div class="header__figma">
+                <img class="header__figma-img" src="images/header/figma.png" alt="figma">
+              </div>
+            </div>
+            <div class="header__img-item" data-depth="0.15" data-hover-only>
+              <div class="header__pencil">
+                <img class="header__pencil-img" src="images/header/pencil-ruler-paper.png" alt="paper">
+              </div>
+            </div>
+            <div class="header__img-item" data-depth="0.5" data-hover-only>
+              <div class="header__color">
+                <img class="header__color-img" src="images/header/color-sampler.png" alt="color">
+              </div>
+            </div>
+            <div class="header__img-item" data-depth="0.3" data-hover-only>
+              <div class="header__photoshop">
+                <img class="header__photoshop-img" src="images/header/photoshop.png" alt="photoshop">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </header>
+ 
+   <section class="about-us">
+    <div class="container">
+      <div class="about-us__inner">
+        <h2 class="about-us__title">About the course</h2>
+        <p class="about-us__subtitle">
+          If you are looking for a creative modern profession then this course is for you. We will teach you how
+          create websites and mobile applications, work with video and animation, draw illustrations.
+          You will learn how to work in 3D: create characters, game locations, interiors and exteriors.
+          We will help you master all the necessary tools from scratch.
+        </p>
+        <div class="about-us__screen">
+
+          <a class="about-us__paly" data-fancybox href="https://www.youtube.com/watch?v=prVP_M0j3uQ">
+            <img class="about-us__paly-img" src="images/header/play.svg" alt="play btn">
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="stydy-details">
+    <div class="container">
+      <div class="stydy-details__inner">
+        <h2 class="stydy-details__title">How education goes</h2>
+
+        <div class="stydy-details__items">
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/audience.svg" alt="audience">
+            <h4 class="stydy-details__item-title">Comfortable classes</h4>
+            <p class="stydy-details__text">
+              We have many comfortable classrooms,
+              conference rooms and laboratories. You will have
+              simple workplace with a personal
+              computer.
+            </p>
+          </div>
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/equipment.svg" alt="equipment">
+            <h4 class="stydy-details__item-title">Modern equipment</h4>
+            <p class="stydy-details__text">
+              Our partners: Cisco, Microsoft, Avtodesk,
+              world leaders in the field of IT. You will have everything
+              necessary hardware and software.
+            </p>
+          </div>
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/teachers.svg" alt="teachers">
+            <h4 class="stydy-details__item-title">Work with teachers</h4>
+            <p class="stydy-details__text">
+              Our teachers are practicing
+              designers. At every lesson you are together
+              you will analyze topics, complete tasks,
+              analyze real cases and projects.
+            </p>
+          </div>
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/lectures-webinars.svg" alt="webinars">
+            <h4 class="stydy-details__item-title">Lectures, webinars and workshops</h4>
+            <p class="stydy-details__text">
+              We often invite well-known experts
+              from the industry that become useful
+              knowledge and secrets of their work.
+            </p>
+          </div>
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/real-projects-work.svg" alt="projects">
+            <h4 class="stydy-details__item-title">Work with real projects</h4>
+            <p class="stydy-details__text">
+              You will have the opportunity to understand and
+              work on real projects for more
+              stage of learning.
+            </p>
+          </div>
+
+          <div class="stydy-details__item">
+            <img class="stydy-details__item-img" src="images/stydy-details/portfolio.svg" alt="portfolio">
+            <h4 class="stydy-details__item-title">Making a portfolio</h4>
+            <p class="stydy-details__text">
+              During the training period, you will collect your own
+              portfolio of completed assignments,
+              course and diploma projects.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="program">
+    <div class="container">
+      <div class="program__inner">
+
+        <div class="program__bord">
+          <h2 class="program__title">Course program</h2>
+
+          <div class="program__overview">
+
+            <div class="program__point">
+              <div class="program__item-top">
+                <h5 class="program__item-title">2D graphics and layout</h5>
+
+                <img class="program__decor-arrow" src="images/program-arrow.svg" alt="arrow">
+              </div>
+
+              <div class="program__decor-content">
+                <ul class="program__list">
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Photoshop</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Illustrator</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Drawing</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Art history</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Digital photography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Design theory</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Corporate identity and branding</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Advertising design</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Typography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Adobe InDesign publishing system</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Prepress</a>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+            <div class="program__point">
+              <div class="program__item-top">
+                <h5 class="program__item-title">Web disciplines</h5>
+
+                <img class="program__decor-arrow" src="images/program-arrow.svg" alt="arrow">
+              </div>
+
+              <div class="program__decor-content" style="display: none;">
+                <ul class="program__list">
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Photoshop</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Illustrator</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Drawing</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Art history</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Digital photography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Design theory</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Corporate identity and branding</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Commercial design</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Typography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Adobe InDesign publishing system</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Prepress</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="program__point">
+              <div class="program__item-top">
+                <h5 class="program__item-title">3D Graphics</h5>
+
+                <img class="program__decor-arrow" src="images/program-arrow.svg" alt="arrow">
+              </div>
+
+              <div class="program__decor-content" style="display: none;">
+                <ul class="program__list">
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Photoshop</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Illustrator</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Drawing</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">
+                      Art history</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Digital photography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Design theory</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Corporate identity and branding</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Advertising design</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Typography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Publishing system Adobe InDesign</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Prepress</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="program__point">
+              <div class="program__item-top">
+                <h5 class="program__item-title">Animation and video</h5>
+
+                <img class="program__decor-arrow" src="images/program-arrow.svg" alt="arrow">
+              </div>
+
+              <div class="program__decor-content" style="display: none;">
+                <ul class="program__list">
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Photoshop</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Graphic editor Adobe Illustrator</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Drawing</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">
+                      Art history</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Digital photography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Design theory</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Corporate identity and branding</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Advertising design</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Typography</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Adobe InDesign publishing system</a>
+                  </li>
+                  <li class="program__item">
+                    <a class="program__link" href="#">Prepress</a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+
+          </div>
+          <a class="program__btn majority-btn" href="#">Download detailed program</a>
+        </div> 
+
+      </div>
+    </div>
+  </section>
+
+  <section class="team">
+    <div class="container">
+      <div class="team__inner">
+        <h2 class="team__title">Our team is our strength</h2>
+        <p class="team__text">  
+           All our teachers are professionals in their field, and each of them is a practicing specialist,
+           who thoroughly knows the subject and is constantly working to improve the level of qualification. If
+           Your goal is to acquire relevant and versatile knowledge and skills in the subject - you can be sure
+           that our teachers have no equal in this. They love non-standard and tricky questions,
+           challenging tasks and are not afraid of creative and inquisitive students.
+        </p>
+    
+        <div class="team__gallery">
+          <img class="team__photo team__photo--1" src="images/team-gallery/gallery-1.jpg" alt="photo">
+          <img class="team__photo team__photo--2" src="images/team-gallery/gallery-2.jpg" alt="photo">
+          <img class="team__photo team__photo--3" src="images/team-gallery/gallery-3.jpg" alt="photo">
+          <img class="team__photo team__photo--4" src="images/team-gallery/gallery-4.jpg" alt="photo">
+          <img class="team__photo team__photo--5" src="images/team-gallery/gallery-5.jpg" alt="photo">
+          <img class="team__photo team__photo--6" src="images/team-gallery/gallery-6.jpg" alt="photo">
+
+        </div>
+       
+      </div>
+    </div>
+  </section> 
+   
+
+
+  <section class="cost">
+    <div class="container">
+      <div class="cost__inner">
+        <h2 class="cost__title">Class format and cost</h2>
+
+        <div class="cost__details">
+          <h3 class="cost__details-title">Stationary</h3>
+          <div class="cost__details-table">
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Course duration:
+              </p>
+
+              <p class="cost__details-info">
+                5 semesters - 2.5 years
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Schedule
+              </p>
+
+              <p class="cost__details-info">
+                3 times a week for 2 lessons
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title"> 
+                Age:
+              </p>
+
+              <p class="cost__details-info">
+                9 - 55 years old
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Сourse language 
+              </p>
+
+              <p class="cost__details-info">
+                Ukrainian
+              </p>
+            </div>
+
+          </div>
+
+          <div class="cost__options">
+            <div class="cost__option-wrapper">
+              <div class="cost__option">
+                <p class="cost__option-title">Payment in parts</p>
+                <p class="cost__option-price">3920 <span class="cost__option-span">UAH/month</span></p>
+              </div>
+
+              <div class="cost__option cost__option--dwidth">
+                <p class="cost__option-title">Full payment</p>
+                <p class="cost__option-price cost__option-price--dm">3053 <span class="cost__option-span">
+                  UAH/month</span></p>
+                <p class="cost__option-full-cost">
+                  When paying for the full course: 91 575 UAH
+                </p>
+              </div>
+            </div>
+            <div class="cost__option-buttons">
+              <a class="cost__option-application majority-btn" href="#">Submit your application</a>
+              <a class="cost__option-contract majority-btn" href="#">Enter into a contract</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="cost__details cost__details--dmb">
+          <h3 class="cost__details-title">Semi-stationary</h3>
+          <div class="cost__details-table">
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Course duration:
+              </p>
+
+              <p class="cost__details-info">
+                5 semesters - 2.5 years
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Schedule
+              </p>
+
+              <p class="cost__details-info">
+                3 times a week for 2 lessons
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Age:
+              </p>
+
+              <p class="cost__details-info">
+                9 - 55 years old
+              </p>
+            </div>
+
+            <div class="cost__details-item">
+              <p class="cost__details-item-title">
+                Course language:
+              </p>
+
+              <p class="cost__details-info">
+                Ukrainian
+              </p>
+            </div>
+
+          </div>
+
+          <div class="cost__options">
+            <div class="cost__option-wrapper">
+              <div class="cost__option">
+                <p class="cost__option-title">Payment in parts</p>
+                <p class="cost__option-price">3920 <span class="cost__option-span"> UAH/month</span></p>
+              </div>
+
+              <div class="cost__option cost__option--dwidth">
+                <p class="cost__option-title">Full payment</p>
+                <p class="cost__option-price cost__option-price--dm">3053 <span class="cost__option-span">
+                  UAH/month</span></p>
+                <p class="cost__option-full-cost">
+                  When paying for the full course: 91 575 UAH
+                </p>
+              </div>
+            </div>
+            <div class="cost__option-buttons">
+              <a class="cost__option-application majority-btn" href="#">Submit your application</a>
+              <a class="cost__option-contract majority-btn" href="#">Enter into a contract</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </section> 
+   
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
